@@ -844,6 +844,11 @@ export default {
           })
       })
     },
+    /**
+     * 重置查询 query，相当于点击「重置」按钮
+     *
+     * @public
+     */
     resetSearch() {
       // reset后, form里的值会变成 undefined, 在下一次查询会赋值给query
       this.$refs.searchForm.resetFields()
